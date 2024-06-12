@@ -68,6 +68,13 @@ main img{
     max-width: 100vw;
 }
 
+.subHeader{
+    color: white;
+    font-weight: 400;
+}
+.greentext{
+    font-weight: 800;
+}
 .buyButton{
     background-color: #02b002;
     color: white;
@@ -84,3 +91,35 @@ main img{
     border-radius: 50px;
     text-decoration: none;
 }
+
+/* SEÇÃO DE BENEFÍCIOS */
+.sectio1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.benefitsHeader{
+    color: #fff;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.benefits{
+    color: white;
+}
+
+.benefits p{
+    display: flex;
+    align-items: center;
+}
+
+.checkIcon{
+    width: 30px;
+    margin: .8rem;
+}
+
+.moneyandHandsElementers img{
+    width: 100%;
+}
+
