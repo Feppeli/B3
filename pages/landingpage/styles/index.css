@@ -159,9 +159,70 @@ main img{
     }
     .benefitscontent p{
         width: 600px;
+        font-size: 18px;
+        font-weight: 600;
     }
     .moneyandHandsElementers img{
         width: 400px;
         margin: 0;
     }
+}
+
+/* checkout */
+
+.checkoutBox{
+
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border-radius: 8px;
+    border: 3px solid #3f3f3f;
+
+    background: #f9f9f9;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.checkoutBox h2{
+    font-weight: normal;
+    text-align: center;
+    
+}
+
+.checkoutBox h2, del{
+    color:black;
+    font-weight: bold;
+}
+
+.checkoutBox h2{
+    margin: .8rem;
+}
+
+.checkoutBox del {
+    color: red;
+    font-weight: bolder;
+}
+
+.value{
+    color: black;
+    display: flex;
+    
+    font-size: 36px;
+
+    align-items: center;
+    justify-content: center;
+    color: #02b002;
+}
+
+.value p{
+    font-weight: 200;
+    color: black;
+}
+
+.value h3{
+    font-weight: 300;
+}
+
+.value .buyButton{
+    text-align: center;
 }
