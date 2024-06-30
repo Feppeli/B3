@@ -91,6 +91,34 @@ main img{
     border-radius: 50px;
     text-decoration: none;
 }
+/* SEÇÃO SOBRE */
+.sectionAbout h2, p{
+    color: white;
+}
+
+.sectionAbout h2{
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.sectionAbout span{
+    color: #02b002;
+    font-weight: bold;
+
+}
+
+.sectionAbout p{
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    font-size: 24px;
+}
+
+@media (max-width: 1000px){
+    .sectionAbout p{
+    font-size: 18px;
+
+    }
+}
 
 /* SEÇÃO DE BENEFÍCIOS */
 .sectio1{
@@ -116,10 +144,24 @@ main img{
 
 .checkIcon{
     width: 30px;
-    margin: .8rem;
+    margin-right: .8rem;
+    margin-top: .8rem;
 }
 
 .moneyandHandsElementers img{
     width: 100%;
 }
 
+@media (min-width: 1000px){
+    .benefitscontent{
+        display: flex;
+        flex-direction: row;
+    }
+    .benefitscontent p{
+        width: 600px;
+    }
+    .moneyandHandsElementers img{
+        width: 400px;
+        margin: 0;
+    }
+}
